@@ -1,0 +1,73 @@
+.imagem img{
+    display: flex;
+    width: 100%;
+    height: 270px;
+}
+
+
+
+/* Main */
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    min-height: 200dvh;
+}
+
+.navegacao-de-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+
+.list-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.anc-links{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.anc-links:hover{
+    opacity: 40%;
+}
+
+.sessoes-mn{
+    margin-top: 50px;
+    width: 95%;
+}
+
+.name-session{
+    text-align: left;
+    font-family: "Merienda", cursive;
+    font-weight: 900;
+    margin-top: 15px;
+    text-decoration: underline black;
+}
+
+.container-ped{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.box-grup-ped{
+    width: 100%;
+    height: 120px;
+    border-radius: 15px;
+    border: 2px solid rgba(36, 35, 35, 0.856);
+    background-color: rgba(36, 35, 35, 0.856);
+}
