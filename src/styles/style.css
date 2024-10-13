@@ -23,7 +23,8 @@
     width: 95%;
     height: 50px;
     border-radius: 8px;
-    border: 1px solid black;
+    border: 2px solid rgb(0, 0, 0);
+    
 }
 
 
@@ -53,7 +54,7 @@
     font-family: "Merienda", cursive;
     font-weight: 900;
     margin-top: 15px;
-    text-decoration: underline black;
+    text-decoration: underline rgb(223, 25, 25);
 }
 
 .container-ped{
@@ -71,3 +72,48 @@
     border: 2px solid rgba(36, 35, 35, 0.856);
     background-color: rgba(36, 35, 35, 0.856);
 }
+
+
+.footer{
+    color: black;
+    display: flex;
+    justify-content: center ;
+    align-items: end;
+    font-size: large;
+   
+}
+
+i{
+    margin: 20px;
+    font-size: x-large;
+    color: black;
+}
+
+i:hover{
+    transition: 0.5s;
+    box-shadow: 2px 1px 14px 1px;
+    
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    
+}
+
+.con{
+    border-top: 2px solid rgba(248, 248, 248, 0.359);
+   background-color: rgba(248, 248, 248, 0.359);
+   
+}
+
+#tex{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+    margin: 70px;
+    
+}
+
