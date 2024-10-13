@@ -1,11 +1,13 @@
-.imagem img{
+.imagem {
     display: flex;
     width: 100%;
     height: 350px;
     border-radius: 10px;
+    background-image: url('/src/img/ivan-torres-MQUqbmszGGM-unsplash.jpg');
+    background-color: rgba(0, 0, 0, 0.637);
+    background-size: cover;
+    background-blend-mode: darken;
 }
-
-
 
 /* Main */
 .main{
@@ -42,6 +44,7 @@
 
 .anc-links:hover{
     opacity: 40%;
+    background-color: blue;
 }
 
 .sessoes-mn{
@@ -123,9 +126,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center ;
-    
     margin: 70px;
-    
 }
 
 .box-imgped{
@@ -172,6 +173,7 @@ footer{
     right: 25px;
 }
 
+
 .im img{
     height: 103px;
     width: 103px;
@@ -182,7 +184,9 @@ footer{
     position: absolute;
     left: 100px;
     top: 300px;
-    
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 
 .haga3{
@@ -195,4 +199,16 @@ footer{
     font-weight: 900;
     text-decoration:  underline 2px rgb(196, 3, 3);
     
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+    .im{
+        left: 50px;
+    }
+
+    .haga3{
+        left: 170px;
+    }
 }
